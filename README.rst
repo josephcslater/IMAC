@@ -1,11 +1,11 @@
 IMAC
 ====
 
-LaTeX style and templace for the International Modal Analysis Conference
+LaTeX style and template for the International Modal Analysis Conference
 
-The IMAC Package for generating International Modal Analysis Conference formatted papers in :math:`$\LaTeX$`.
+The IMAC Package for generating International Modal Analysis Conference formatted papers in LaTeX.
 
-All documentation can be found in the file `imac.pdf`, generated from the file `imac.tex`.
+All documentation can be found in the file ``imac.pdf``, generated from the file ``imac.tex``.
 
 | `Joseph C. Slater <email:joseph.slater@wright.edu>`_
 | 9/23/98
