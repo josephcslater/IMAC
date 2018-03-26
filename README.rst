@@ -7,9 +7,7 @@ The IMAC Package for generating International Modal Analysis Conference formatte
 
 All documentation can be found in the file `imac.pdf`, generated from the file `imac.tex`.
 
-| `Joseph C. Slater`_
+| `Joseph C. Slater <email:joseph.slater@wright.edu>`_
 | 9/23/98
-
 | Copyright (C) 1998 Joseph C. Slater
 
-.. J. Slater: email:joseph.slater@wright.edu
