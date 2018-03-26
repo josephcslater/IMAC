@@ -15,7 +15,7 @@
 %                       Trust me.
 %                       Comment it out if you do not.
 
-
+\usepackage[colorlinks = true]{hyperref}
 % You also need to have the packages: cite, citesort, and ifthen 
 % (ifthen comes with the standard distribution of LaTeX).
 % They can be obtained from any CTAN server. Probably where you found 
@@ -51,6 +51,8 @@ the title, and define the author as shown in the example. Not that
 IMAC requires that the author names be in bold, so you have to do this 
 yourself. In addition, I haven't yet hacked the style definition for 
 the title. Maybe I will later, but that's a minor inconvenience. 
+
+For feedback and support, please see the \href{https://github.com/josephcslater/IMAC}{IMAC style home page}.
 \end{abstract}
 
 
@@ -75,7 +77,9 @@ $\begin{bmatrix}\matr{M}_{11}&:&\matr{M}_{12}\\
 \end{tabular}
 
 \section{Changes}
-The only change since 1.00 is the inclusion of the GNU public license.
+1.0.1: The only change since 1.00 is the inclusion of the LPPL license.
+
+1.0.2: Added hyperlinks to the main document and cleaned up some text. Moved to GitHub
 
 \section{Typing Your Document}
 \indent First thing to note is that the IMAC style indents the first 
@@ -91,13 +95,11 @@ work out a little nicer if you have the \verb*zhelvetz package, but
 it is not necessary. If you do have the \verb*zhelvetz package, you 
 should uncomment the line \verb*z\usepackage{helvet}z above.
 
-The PostScript\textregistered\ file \verb*zimac.psz can be viewed in 
-\verb*zGhostScriptz or printed to a ps printer for comparison to the results 
+The PDF\textregistered\ file \verb*zimac.pdfz can be viewed for comparison to the results 
 you obtain from \LaTeX ing this document. 
 
 A few macros have been defined below for conforming to the 
-IMAC\cite{ewins}
-notation convention (See Table \ref{dm}). If you use them, you can simply redefine the 
+IMAC\cite{ewins} notation convention (See Table \ref{dm}). If you use them, you can simply redefine the 
 macros according to the journal requirements when the time comes for submission.
 I've defined only those that I thought were either difficult or do not 
 conform to normal textbook standards. You may find it useful to define 
@@ -141,10 +143,9 @@ of columns that the dotted line should span.
 
 \end{table*} 
 
-Please contact me at \verb*zjslater@cs.wright.eduz if you find bugs in this. 
-I'll do my best to fix 
-them in s timely fashion. Please don't contact me with respect to general \LaTeX\ 
-questions. I don't have the time for that kind of inundation. 
+Please \url{https://github.com/josephcslater/IMAC/issues}{log an issue on GitHub}  if you find bugs in this. 
+I'll do my best to fix them in a timely fashion. Please don't contact me with respect to general \LaTeX\ 
+questions. 
 For help with \LaTeX\ please consult Lamport\cite{lamport}, Goossens 
 et al\cite{goossens}, and/or Kopka and Daly\cite{kopka}. Additional 
 resources are available through the \TeX\ newsgroup \verb*zcomp.text.texz, 
@@ -154,7 +155,7 @@ users group (TUG) home page (\verb*zhttp://www.tug.org/z).
 
 From here on is just some examples to give you some 
 continuing examples of how to do things. The table would have been 
-better off if I have use the \verb*zhhlinez package.
+better off if I had used the \verb*zhhlinez package.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -205,7 +206,7 @@ constant stiffness system referred to as the baseline model (Figure
 \end{table}
 
 ... and that's it! If you can't get it to work, I can be reached at 
-\verb*zjslater@cs.wright.eduz.
+\url{https://github.com/josephcslater/IMAC}{GitHub}.
 
 
 
@@ -221,27 +222,7 @@ today.
 
 \section*{Copyright}
 
-
-The IMAC Package for generating International Modal Analysis Conference 
-formatted papers in \LaTeX. 
 Copyright (C) 1998 Joseph C. Slater
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
-
-
-
 
 \bibliographystyle{imac}
 
