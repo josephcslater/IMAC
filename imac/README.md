@@ -1,5 +1,4 @@
-IMAC
-====
+# IMAC
 
 LaTeX style and template for the International Modal Analysis
 Conference.

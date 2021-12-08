@@ -11,7 +11,7 @@
 %% *** Format for IMAC (International Modal Analysis Conference) ***
 %% Generated Oct 5, 1997 by Joseph C. Slater
 %% jslater@cs.wright.edu
-%% 
+%%
  %-------------------------------------------------------------------
  % The original source file contains the following version information:
  % \ProvidesFile{merlin.mbs}[1997/06/09 3.83 (PWD)]
